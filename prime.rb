@@ -1,5 +1,8 @@
 require "pry"
 def prime?(num)
+  if num < 0
+    return false
+  end
   i = 2
   divisors = []
   while i <= (num / 2)

@@ -9,4 +9,4 @@ def prime?(num)
   divisors
 end
 
-binding.pry
+# binding.pry

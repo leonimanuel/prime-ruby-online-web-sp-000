@@ -8,3 +8,5 @@ def prime?(num)
   end
   divisors
 end
+
+binding.pry

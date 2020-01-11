@@ -5,4 +5,5 @@ def prime?(num)
   while i < num / 2
     divisors << i
   end
+  divisors
 end

@@ -1,6 +1,6 @@
 require "pry"
 def prime?(num)
-  i = 1
+  i = 2
   divisors = []
   while i <= (num / 2)
     divisors << i

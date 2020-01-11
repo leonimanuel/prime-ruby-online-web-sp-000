@@ -9,4 +9,4 @@ def prime?(num)
   divisors.all? {|x| num % x != 0}
 end
 
-# binding.pry
+binding.pry

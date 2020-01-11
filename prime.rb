@@ -1,4 +1,4 @@
-# Add  code here!
+require "pry"
 def prime?(num)
   i = 1
   divisors = []

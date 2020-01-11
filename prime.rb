@@ -4,6 +4,7 @@ def prime?(num)
   divisors = []
   while i < num / 2
     divisors << i
+    i += 1
   end
   divisors
 end

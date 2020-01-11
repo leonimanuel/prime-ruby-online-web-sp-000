@@ -6,7 +6,7 @@ def prime?(num)
     divisors << i
     i += 1
   end
-  divisors.all? {|x| num % x != 0
+  divisors.all? {|x| num % x != 0}
 end
 
 binding.pry
